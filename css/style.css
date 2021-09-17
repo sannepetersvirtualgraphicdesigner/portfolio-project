@@ -1,3 +1,49 @@
+:root {
+    --branding-color: #14F1D9;
+    --secondary-color: #F9F7FE;
+    --default-font-family: 'Poppins', sans-serif;
+    --gradient: radial-gradient(123.29% 71.1% at -4.83% 82.97%, #98F9D4 0%, #68C6C2 100%);
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+}
+
+.hero {
+    background: var(--gradient);
+    text-align: center;
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 150px 20px 100px;
+}
+.hero h1 {
+    font-weight: 600;
+    font-size: 96px;  
+}
+.hero h2 {
+    font-size: 24px;
+}
+.hero img {
+    width: 150px;
+    padding-bottom: 40px; 
+}
+.btn-branding {
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    border-radius: 4px;
+    padding: 18px 54px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
 /* 
 font-family: 'Poppins', sans-serif; 
 regular font-weight: normal/400
@@ -5,14 +51,3 @@ medium font-weight: 500
 semi-bold font-weight: 600
 bold font-weight: 700
 */
-body {
-
-}
-h1 {
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 600;
-}
-p {
-    font-family: 'Poppins', sans-serif; 
-    font-weight: normal;
-}
