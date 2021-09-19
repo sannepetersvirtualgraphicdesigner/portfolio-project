@@ -48,9 +48,16 @@ p {
     font-size: 18px;
     border: 1px solid var(--branding-color);
 }
+.project-description {
+    padding: 80px 60px;
+}
 
-
-
+@media (max-width: 1050px) {
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+}
 
 
 
