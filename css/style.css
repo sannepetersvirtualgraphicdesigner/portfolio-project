@@ -58,9 +58,13 @@ p {
     font-size: 18px;
     border: 1px solid var(--branding-color);
 }
+.btn-branding-outline:hover {
+    color: var(--branding-color);
+}
 .project-description {
     padding: 35px 40px 0 20px;
 }
+
 @media (max-width: 990px) {
     .hero {
         padding: 80px 20px;
