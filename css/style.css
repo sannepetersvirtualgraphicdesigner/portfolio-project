@@ -12,6 +12,15 @@ h2 {
     font-size: 60px;
     font-weight: 700
 }
+h3 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 65px;
+}
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
 p {
     font-size: 16px;
     line-height: 1.5em;
@@ -28,6 +37,7 @@ p {
     font-size: 96px;  
 }
 .hero h2 {
+    font-weight: normal;
     font-size: 24px;
 }
 .hero img {
@@ -49,10 +59,22 @@ p {
     border: 1px solid var(--branding-color);
 }
 .project-description {
-    padding: 80px 60px;
+    padding: 35px 40px 0 20px;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 990px) {
+    h2 {
+        font-size: 40px;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero h2 { 
+        font-size: 18px;
+    }
     .project-description {
         padding: 0;
         text-align: center;
