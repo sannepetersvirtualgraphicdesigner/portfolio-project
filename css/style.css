@@ -64,6 +64,9 @@ p {
 .project-description {
     padding: 35px 40px 0 20px;
 }
+.about-section {
+    
+}
 
 @media (max-width: 990px) {
     .hero {
