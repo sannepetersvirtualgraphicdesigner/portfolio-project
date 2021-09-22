@@ -107,7 +107,13 @@ p {
 .content img {
   width: 560px;
 }
-
+.social-icons i {
+  background-color: var(--branding-color);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+}
 @media (max-width: 990px) {
   .hero {
     padding: 80px 20px;
