@@ -82,29 +82,37 @@ p {
 .project-description {
   padding: 35px 40px 0 20px;
 }
-.about-section {
+.content-container {
   padding: 150px 20px 100px;
 }
-.about-section h1 {
+.content {
+  margin: 10px 0;
+}
+.content h1 {
   font-weight: 700;
   font-size: 64px;
 }
-.about-section h2 {
+.content h2 {
   font-weight: 700;
   font-size: 18px;
 }
-.about-section img {
+.content h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.content p {
+  font-size: 14px;
+}
+.content img {
   width: 560px;
 }
-.about-section-content {
-  margin: 10px 0;
-}
+
 @media (max-width: 990px) {
   .hero {
     padding: 80px 20px;
   }
   .hero h1 {
-    /* font-size: 40px; */
     font-size: 65px;
   }
   .hero h2 {
@@ -112,12 +120,10 @@ p {
   }
   .project-description {
     text-align: center;
-    /* padding: 0; */
     padding: 10px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
-    /* padding: 0; */
     padding: 10px 20px;
   }
   h2 {
