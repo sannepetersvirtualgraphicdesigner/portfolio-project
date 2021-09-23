@@ -34,6 +34,10 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.5em;
+  color: #6c757d;
+}
+a {
+  text-decoration: none;
 }
 .hero {
   background: var(--gradient);
@@ -116,12 +120,51 @@ p {
 }
 footer .email-link {
   text-decoration: none;
+  color: black;
   font-size: 24px;
   font-weight: 500;
+  display: block;
   text-align: center;
+  margin-bottom: 40px;
 }
 footer .email-link:hover {
   color: var(--branding-color);
+}
+footer .footer-social-icons {
+  text-align: center;
+  padding-bottom: 40px;
+}
+footer .footer-social-icons a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: #f3fefd;
+  padding: 12px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .footer-social-icons a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+footer p {
+  text-align: center;
+  font-size: 14px;
+}
+footer p a {
+  color: var(--branding-color);
+}
+footer p a:hover {
+  color: var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 50px 120px 30px;
+  margin-bottom: 40px;
+}
+footer .contact-box h3 {
+  font-weight: 700;
 }
 @media (max-width: 990px) {
   .hero {
@@ -151,6 +194,14 @@ footer .email-link:hover {
   h4 {
     font-size: 16px;
   }
+  footer .contact-box {
+    padding: 40px 20px;
+  }
+  /* footer .contact-box .btn-branding-secondary {
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 20px;
+  } */
 }
 
 /* 
