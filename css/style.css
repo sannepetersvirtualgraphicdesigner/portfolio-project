@@ -38,6 +38,29 @@ p {
 }
 a {
   text-decoration: none;
+  color: #6c757d;
+  font-weight: 500;
+  transition: all 150ms ease-in-out;
+}
+a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.logo {
+  max-width: 295px;
+}
+nav {
+  padding: 20px 50px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 55px;
+  margin-left: 15px;
 }
 .hero {
   background: var(--gradient);
@@ -64,6 +87,7 @@ a {
   border-radius: 4px;
   padding: 18px 54px;
   font-size: 18px;
+  transition: all 150ms ease-in-out;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -71,9 +95,11 @@ a {
   padding: 18px 54px;
   font-size: 18px;
   border: 1px solid var(--branding-color);
+  transition: all 150ms ease-in-out;
 }
 .btn-branding-outline:hover {
-  color: var(--branding-color);
+  color: white;
+  background: var(--branding-color);
 }
 .btn-branding-secondary {
   color: white;
@@ -196,6 +222,9 @@ footer .contact-box h3 {
   }
   footer .contact-box {
     padding: 40px 20px;
+  }
+  nav {
+    font-size: 14px;
   }
   /* footer .contact-box .btn-branding-secondary {
     font-size: 14px;
