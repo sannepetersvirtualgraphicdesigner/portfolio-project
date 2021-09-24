@@ -1,6 +1,8 @@
 :root {
   --branding-color: #14f1d9;
   --secondary-color: #f9f7fe;
+  --text-heading-color: #272142;
+  --text-body-color: #6c757d;
   --default-font-family: "Poppins", sans-serif;
   --gradient: radial-gradient(
     123.29% 71.1% at -4.83% 82.97%,
@@ -34,23 +36,27 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.5em;
-  color: #6c757d;
+  color: var(--text-body-color);
 }
 a {
   text-decoration: none;
-  color: #6c757d;
+  color: var(--text-body-color);
   font-weight: 500;
   transition: all 150ms ease-in-out;
 }
-a:hover,
+nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+/* .active {
+  color: var(--branding-color);
+} */
 .logo {
   max-width: 295px;
+  margin-top: 18px;
 }
 nav {
-  padding: 20px 50px;
+  padding: 20px 135px;
 }
 nav ul {
   margin: 0;
@@ -146,7 +152,7 @@ nav li {
 }
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--text-body-color);
   font-size: 24px;
   font-weight: 500;
   display: block;
@@ -179,6 +185,7 @@ footer p {
 }
 footer p a {
   color: var(--branding-color);
+  font-weight: normal;
 }
 footer p a:hover {
   color: var(--branding-color);
@@ -193,6 +200,9 @@ footer .contact-box h3 {
   font-weight: 700;
 }
 @media (max-width: 990px) {
+  .logo {
+    max-width: 270px;
+  }
   .hero {
     padding: 80px 20px;
   }
@@ -226,11 +236,26 @@ footer .contact-box h3 {
   nav {
     font-size: 14px;
   }
-  /* footer .contact-box .btn-branding-secondary {
-    font-size: 14px;
-    padding: 10px;
-    margin: 10px 20px;
-  } */
+}
+@media (max-width: 782px) {
+  .logo {
+    max-width: 220px;
+    margin-top: 20px;
+  }
+  nav {
+    padding: 20px 90px;
+  }
+}
+@media (max-width: 634px) {
+  nav {
+    padding: 20px 45px;
+  }
+}
+@media (max-width: 350px) {
+  nav {
+    font-size: 12px;
+    padding: 20px;
+  }
 }
 
 /* 
