@@ -44,6 +44,9 @@ a {
   font-weight: 500;
   transition: all 150ms ease-in-out;
 }
+a:hover {
+  color: var(--text-body-color);
+}
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
@@ -159,6 +162,9 @@ h4 {
 }
 .social-icons a:hover {
   color: var(--text-heading-color);
+}
+.credits {
+  font-size: 12px;
 }
 footer .email-link {
   text-decoration: none;
