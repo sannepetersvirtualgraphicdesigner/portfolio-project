@@ -43,13 +43,9 @@ a {
 a:hover {
   color: var(--text-body-color);
 }
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
-  transition: all 150ms ease-in-out;
-}
 nav {
-  padding: 20px 135px;
+  /* padding: 20px 0; */
+  padding: 20px 30px;
 }
 nav ul {
   margin: 0;
@@ -61,6 +57,11 @@ nav li {
   line-height: 55px;
   margin-left: 15px;
 }
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
 .logo {
   max-width: 295px;
   margin-top: 20px;
@@ -69,8 +70,9 @@ nav li {
   background: var(--gradient);
   text-align: center;
   color: var(--secondary-color);
-  margin: 0;
-  padding: 150px 20px 100px;
+  /* margin: 0;
+  padding: 150px 20px 100px; */
+  padding: 80px 20px;
 }
 .hero h1 {
   font-weight: 600;
@@ -126,6 +128,7 @@ nav li {
 }
 .content h1 {
   font-size: 64px;
+  line-height: 80px;
   font-weight: 700;
 }
 .content h2 {
@@ -140,14 +143,14 @@ nav li {
 .content p {
   font-size: 16px;
 }
-.content img {
+/* .content img {
   width: 560px;
-}
-.work-h1 {
+} */
+/* .work-h1 {
   max-width: 800px;
-  /* text-align: left;
-  margin-left: 20px; */
-}
+  text-align: left;
+  margin-left: 20px;
+} */
 .social-icons a {
   margin: 0 10px;
   background-color: var(--branding-color);
@@ -236,7 +239,7 @@ footer .contact-box p {
   }
   .content {
     text-align: center;
-    /* padding: 10px 20px; */
+    padding: 10px 20px;
   }
   h2 {
     font-size: 40px;
