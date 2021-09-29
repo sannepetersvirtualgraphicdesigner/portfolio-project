@@ -32,6 +32,7 @@ h3 {
 h4 {
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 35px;
 }
 p {
   font-size: 16px;
@@ -156,7 +157,7 @@ h4 {
   background-color: var(--branding-color);
   color: white;
   padding: 12px 16px;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 50%;
   transition: all 200ms ease-in-out;
 }
@@ -185,7 +186,7 @@ footer .footer-social-icons {
 footer .footer-social-icons a {
   margin: 0 10px;
   color: var(--branding-color);
-  background: #f3fefd;
+  background: #f3fefd; /*light green*/
   padding: 12px 16px;
   font-size: 12px;
   border-radius: 50%;
@@ -207,7 +208,7 @@ footer p a:hover {
   color: var(--branding-color);
 }
 footer .contact-box {
-  background-color: var(--secondary-color);
+  background-color: #f9f8f9; /*light grey*/
   border-radius: 20px;
   padding: 30px 120px 30px;
   margin-bottom: 60px;
