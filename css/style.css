@@ -120,8 +120,11 @@ nav li.active a {
   padding: 35px 40px 0 20px;
 }
 .content-container {
-  padding: 15px 20px;
+  padding: 60px 20px;
 }
+/* .content-container.narrower {
+  padding: 60px;
+} */
 .content {
   /* margin: 10px 0; */
   margin: 30px;
@@ -143,14 +146,6 @@ nav li.active a {
 .content p {
   font-size: 16px;
 }
-/* .content img {
-  width: 560px;
-} */
-/* .work-h1 {
-  max-width: 800px;
-  text-align: left;
-  margin-left: 20px;
-} */
 .social-icons a {
   margin: 0 10px;
   background-color: var(--branding-color);
@@ -165,6 +160,9 @@ nav li.active a {
 }
 .credits {
   font-size: 12px;
+}
+.fa-envelope {
+  margin-right: 5px;
 }
 footer .email-link {
   text-decoration: none;
