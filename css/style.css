@@ -145,8 +145,8 @@ nav li {
 }
 .work-h1 {
   max-width: 800px;
-  text-align: left;
-  margin-left: 20px;
+  /* text-align: left;
+  margin-left: 20px; */
 }
 .social-icons a {
   margin: 0 10px;
