@@ -1,6 +1,7 @@
 :root {
   --branding-color: #14f1d9;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #f9f7fe; /*nav bg and footer open to work color*/
+  --tertiary-color: #f3fefd; /*light green - social icons*/
   --text-heading-color: #272142;
   --text-body-color: #6c757d;
   --default-font-family: "Poppins", sans-serif;
@@ -42,6 +43,43 @@ a {
 a:hover {
   color: var(--text-body-color);
 }
+.logo {
+  max-width: 300px;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 25px;
+  margin: 20px 10px;
+  font-size: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-heading-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+.active {
+  color: var(--branding-color);
+}
+.navbar-toggler {
+  border: none;
+}
+/* border hamburger toggler */
+.navbar-toggler:focus {
+  color: var(--secondary-color);
+}
+.hamburger-menu {
+  color: var(--branding-color);
+}
 .navbar-custom {
   background-color: var(--secondary-color);
 }
@@ -60,88 +98,6 @@ a:hover {
   color: var(--branding-color);
   transition: all 150ms ease-in-out;
 }
-/* .nav-item {
-  padding: 0 10px;
-  line-height: 10px;
-} */
-.container-fluid {
-  padding: 0 !important;
-}
-/* ul {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  display: inline;
-  margin: 20px;
-}
-
-nav {
-  padding: 0;
-  margin: 0;
-} */
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-nav li {
-  list-style: none;
-  display: inline;
-  line-height: 25px;
-  margin: 20px 10px;
-  font-size: 16px;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--text-heading-color);
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-.active {
-  color: var(--branding-color);
-}
-.navbar-toggler {
-  border: none;
-}
-/* border hamburger toggler */
-.navbar-toggler:focus {
-  color: var(--secondary-color);
-}
-.hamburger-menu {
-  color: var(--branding-color);
-}
-
-/* nav {
-  padding: 20px 0;
-  padding: 20px 30px;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 55px;
-  margin-left: 15px;
-}
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
-  transition: all 150ms ease-in-out;
-} */
-/*volgens mij doet deze niks*/
-.logo {
-  max-width: 295px;
-}
 .hero {
   background: var(--gradient);
   text-align: center;
@@ -156,7 +112,6 @@ nav li.active a {
   font-weight: normal;
   font-size: 24px;
 }
-
 .hero img {
   width: 150px;
   padding-bottom: 40px;
@@ -197,7 +152,6 @@ nav li.active a {
   padding: 60px 20px;
 }
 .content {
-  /* margin: 10px 0; */
   margin: 30px;
 }
 .content h1 {
@@ -229,7 +183,7 @@ nav li.active a {
 .social-icons a:hover {
   color: var(--text-heading-color);
 }
-.credits {
+.photocredits {
   font-size: 12px;
 }
 .fa-envelope {
@@ -254,7 +208,7 @@ footer .footer-social-icons {
 footer .footer-social-icons a {
   margin: 0 10px;
   color: var(--branding-color);
-  background: #f3fefd; /*light green*/
+  background: var(--tertiary-color);
   padding: 12px 16px;
   font-size: 12px;
   border-radius: 50%;
@@ -276,7 +230,7 @@ footer p a:hover {
   color: var(--branding-color);
 }
 footer .contact-box {
-  background-color: #f9f8f9; /*light grey*/
+  background-color: var(--secondary-color); /*light grey*/
   border-radius: 20px;
   padding: 30px 120px 30px;
   margin-bottom: 60px;
@@ -291,8 +245,8 @@ footer .contact-box p {
 }
 @media (max-width: 990px) {
   .logo {
-    max-width: 270px;
-    margin: 20px;
+    max-width: 250px !important;
+    margin: 20px 5px;
   }
   .hero {
     padding: 80px 20px;
@@ -315,8 +269,9 @@ footer .contact-box p {
     font-size: 40px;
   }
   h3 {
-    font-size: 22px;
-    line-height: 30px;
+    margin-top: 45px;
+    font-size: 24px;
+    line-height: 34px;
   }
   h4 {
     font-size: 16px;
