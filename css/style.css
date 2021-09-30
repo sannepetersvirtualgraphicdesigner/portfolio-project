@@ -43,7 +43,7 @@ a:hover {
   color: var(--text-body-color);
 }
 .navbar-custom {
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -60,14 +60,14 @@ a:hover {
   color: var(--branding-color);
   transition: all 150ms ease-in-out;
 }
-.nav-item {
+/* .nav-item {
   padding: 0 10px;
-  /* line-height: 10px; */
-}
+  line-height: 10px;
+} */
 .container-fluid {
   padding: 0 !important;
 }
-ul {
+/* ul {
   text-align: right;
   margin: 0;
   padding: 0;
@@ -76,24 +76,25 @@ ul {
 li {
   list-style: none;
   display: inline;
-  margin: 40px;
+  margin: 20px;
 }
 
 nav {
   padding: 0;
   margin: 0;
-}
+} */
 
 nav ul {
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 
 nav li {
   list-style: none;
   display: inline;
-  line-height: 42px;
-  margin: 15px;
+  line-height: 25px;
+  margin: 20px 10px;
   font-size: 16px;
 }
 
@@ -109,6 +110,10 @@ nav a:hover,
 }
 .navbar-toggler {
   border: none;
+}
+/* border hamburger toggler */
+.navbar-toggler:focus {
+  color: var(--secondary-color);
 }
 .hamburger-menu {
   color: var(--branding-color);
@@ -133,6 +138,7 @@ nav li.active a {
   color: var(--branding-color);
   transition: all 150ms ease-in-out;
 } */
+/*volgens mij doet deze niks*/
 .logo {
   max-width: 295px;
 }
@@ -323,11 +329,11 @@ footer .contact-box p {
   }
 
   nav li {
-    margin: 5px;
+    margin: 10px 14px;
   }
 
   nav a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   li {
