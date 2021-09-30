@@ -12,7 +12,6 @@
 }
 body {
   font-family: var(--default-font-family);
-  /* font-weight: normal; */
 }
 h2 {
   font-size: 60px;
@@ -46,10 +45,6 @@ a:hover {
 .navbar-custom {
   background-color: #f9f7fe;
 }
-/* .container .navbar .navbar-expand-lg .navbar-light .nav-bg {
-  background-color: #f9f7fe;
-  background-color: red !important;
-} */
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -70,7 +65,7 @@ a:hover {
   /* line-height: 10px; */
 }
 .container-fluid {
-  padding: 0;
+  padding: 0 !important;
 }
 ul {
   text-align: right;
@@ -85,8 +80,6 @@ li {
 }
 
 nav {
-  /* padding: 30px;
-  margin: 0 40px; */
   padding: 0;
   margin: 0;
 }
@@ -106,7 +99,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--text-heading-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -142,14 +135,11 @@ nav li.active a {
 } */
 .logo {
   max-width: 295px;
-  /* margin-top: 20px; */
 }
 .hero {
   background: var(--gradient);
   text-align: center;
   color: var(--secondary-color);
-  /* margin: 0;
-  padding: 150px 20px 100px; */
   padding: 80px 20px;
 }
 .hero h1 {
@@ -200,9 +190,6 @@ nav li.active a {
 .content-container {
   padding: 60px 20px;
 }
-/* .content-container.narrower {
-  padding: 60px;
-} */
 .content {
   /* margin: 10px 0; */
   margin: 30px;
@@ -331,9 +318,6 @@ footer .contact-box p {
   footer .contact-box {
     padding: 30px 40px 0;
   }
-  /* nav {
-    font-size: 14px;
-  } */
   nav {
     padding: 20px 0;
   }
@@ -355,25 +339,10 @@ footer .contact-box p {
     max-width: 220px;
     margin: 20px;
   }
-  nav {
-    padding: 20px 90px;
-  }
   .contact-box {
     display: block !important;
   }
 }
-/* @media (max-width: 634px) {
-  nav {
-    padding: 20px 45px;
-  }
-}
-@media (max-width: 350px) {
-  nav {
-    font-size: 12px;
-    padding: 20px;
-  }
-} */
-
 /* 
 font-family: 'Poppins', sans-serif; 
 regular font-weight: normal/400
