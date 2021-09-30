@@ -48,7 +48,7 @@ a:hover {
   max-width: 300px;
 }
 .container-fluid {
-  padding: 0 !important;
+  padding: 25px !important;
 }
 nav ul {
   margin: 0;
@@ -308,6 +308,12 @@ footer .contact-box p {
   }
   .contact-box {
     display: block !important;
+  }
+}
+@media (max-width: 410px) {
+  .logo {
+    max-width: 200px;
+    margin: 20px 5px;
   }
 }
 /* 
