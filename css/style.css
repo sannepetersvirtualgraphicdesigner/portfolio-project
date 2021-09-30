@@ -250,9 +250,9 @@ footer .contact-box p {
   margin: 0;
 }
 @media (max-width: 990px) {
-  /* .container-fluid {
+  .container-fluid {
     padding: 15px !important;
-  } */
+  }
   .logo {
     max-width: 250px !important;
     margin: 20px 5px;
