@@ -9,5 +9,5 @@ Have a look at my responsive developer portfolio website with a simple but clean
 - CSS (Flexbox, Grid, Media Queries, etc)
 - Bootstrap (Navigation, Utility Classes, Navbar, Grid layout, Spacing, etc)
 
-## Special thanks/credits to 
+## Special thanks to 
 - SheCodes Workshops for teaching me coding
