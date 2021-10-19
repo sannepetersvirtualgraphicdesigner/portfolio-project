@@ -204,18 +204,17 @@ nav a:hover,
 .softskills {
   max-width: 250px;
 }
-.designtools {
+.box {
   background-color: white;
   padding: 40px 100px;
   margin: 0 40px;
   box-shadow: var(--box-shadow);
+  text-align: center;
 }
-.languages {
-  background-color: white;
-  padding: 40px 100px;
-  margin: 0 40px;
-  box-shadow: var(--box-shadow);
-}
+/* .box img {
+  display: block;
+  margin: 0 auto;
+} */
 .quote {
   font-size: 24px;
   line-height: 42px;
