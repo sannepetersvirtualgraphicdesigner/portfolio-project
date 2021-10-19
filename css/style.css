@@ -31,6 +31,9 @@ h4 {
   font-weight: normal;
   margin-bottom: 35px;
 }
+h5 {
+  margin: 20px;
+}
 p {
   color: var(--text-body-color);
   font-size: 16px;
@@ -198,6 +201,9 @@ nav a:hover,
 .abouticons i {
   font-size: 60px;
 }
+.softskills {
+  max-width: 250px;
+}
 .designtools {
   background-color: white;
   padding: 40px 100px;
@@ -291,9 +297,6 @@ footer .contact-box p {
   margin: 0;
 }
 @media (max-width: 990px) {
-  /* .container-fluid {
-    padding: 15px !important;
-  } */
   .logo {
     max-width: 250px !important;
     margin: 20px 5px;
