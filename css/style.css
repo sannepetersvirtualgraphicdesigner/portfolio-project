@@ -370,6 +370,17 @@ footer .contact-box p {
   }
 }
 @media (max-width: 410px) {
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+  .content-container {
+    padding: 30px 15px;
+  }
+  h1 {
+    font-size: 55px;
+    line-height: 65px;
+  }
   .logo {
     max-width: 120px;
     margin: 20px 5px;
