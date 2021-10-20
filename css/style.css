@@ -380,6 +380,12 @@ footer .contact-box p {
   .contact-box {
     display: block !important;
   }
+  .softskillsheading {
+    margin-top: 0 !important;
+  }
+  .quote {
+    margin: 10px;
+  }
 }
 @media (max-width: 410px) {
   .content {
