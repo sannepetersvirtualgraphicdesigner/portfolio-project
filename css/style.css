@@ -353,11 +353,13 @@ footer .contact-box p {
   h4 {
     font-size: 16px;
   }
-  /* .softskillsheading {
-    margin: 0;
-  } */
+  .softskillsheading {
+    margin: 20px 0;
+  }
   .softskillstext {
     max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
   }
   footer .contact-box {
     padding: 30px 40px 0;
