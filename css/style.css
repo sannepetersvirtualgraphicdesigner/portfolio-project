@@ -203,7 +203,7 @@ nav a:hover,
   padding: 0;
 }
 .iconsize {
-  max-width: 56px;
+  width: 56px !important;
 }
 .aboutnames p {
   font-size: 8px;
