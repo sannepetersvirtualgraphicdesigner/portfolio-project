@@ -157,7 +157,13 @@ nav a:hover,
   padding: 60px 20px;
 }
 .container-designlanguage {
-  padding: 60px 120px;
+  /* padding: 30px 120px; */
+  padding: 30px;
+}
+.content-container-designlanguage {
+  max-width: 1400px;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 .content {
   margin: 30px;
@@ -211,7 +217,7 @@ nav a:hover,
 }
 .box {
   background-color: white;
-  padding: 40px 0;
+  padding: 20px 0 40px;
   box-shadow: var(--box-shadow);
   text-align: center;
 }
