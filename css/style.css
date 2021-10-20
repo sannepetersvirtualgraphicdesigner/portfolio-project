@@ -395,7 +395,7 @@ footer .contact-box p {
 }
 @media (max-width: 410px) {
   .content {
-    margin: 20px 0;
+    margin: 20px 10px;
     padding: 0;
   }
   .content-container {
