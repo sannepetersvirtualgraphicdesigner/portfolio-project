@@ -187,7 +187,7 @@ nav a:hover,
 }
 .content-about {
   font-size: 38px;
-  margin: 0;
+  margin: 0 auto;
 }
 .content-about i {
   color: var(--branding-color);
@@ -199,8 +199,10 @@ nav a:hover,
   padding: 50px 0 80px !important;
   margin: 80px 0 40px;
 }
-.list-inline-item {
+ul {
   margin: 0 1.5rem !important;
+}
+.list-inline-item {
   padding: 0;
 }
 .iconsize {
@@ -304,6 +306,9 @@ footer .contact-box p {
   margin: 0;
 }
 @media (max-width: 990px) {
+  .content-about {
+    margin: 0 auto !important;
+  }
   .logo {
     max-width: 250px !important;
     margin: 20px 5px;
