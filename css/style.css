@@ -382,6 +382,10 @@ footer .contact-box p {
   }
 }
 @media (max-width: 410px) {
+  .content {
+    margin: 20px 0;
+    padding: 0;
+  }
   .content-container {
     padding: 40px 15px;
   }
