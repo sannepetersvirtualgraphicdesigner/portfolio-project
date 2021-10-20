@@ -309,6 +309,12 @@ footer .contact-box p {
   .content-about {
     margin: 0 auto !important;
   }
+  .smallcontainerup {
+    padding: 20px !important;
+  }
+  .smallcontainer {
+    padding: 0 !important;
+  }
   .logo {
     max-width: 250px !important;
     margin: 20px 5px;
