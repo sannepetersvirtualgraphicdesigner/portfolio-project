@@ -283,7 +283,7 @@ footer p a:hover {
   color: var(--branding-color);
 }
 footer .contact-box {
-  background-color: var(--secondary-color); /*light grey*/
+  background-color: var(--secondary-color);
   border-radius: 20px;
   padding: 30px 120px 30px;
   margin-bottom: 60px;
@@ -331,6 +331,9 @@ footer .contact-box p {
   }
   footer .contact-box {
     padding: 30px 40px 0;
+  }
+  footer .contact-box h3 {
+    margin-top: 13px;
   }
   nav {
     padding: 20px 0;
