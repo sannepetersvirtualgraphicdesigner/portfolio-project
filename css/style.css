@@ -204,8 +204,8 @@ nav a:hover,
   margin: 20px 0 40px;
 }
 ul {
-  margin: 0 1.5rem !important;
-  /* margin: 0 auto; */
+  /* margin: 0 1.5rem !important; */
+  margin: 0 auto;
 }
 .list-inline-item {
   padding: 0;
