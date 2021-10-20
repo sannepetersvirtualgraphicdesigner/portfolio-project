@@ -377,6 +377,11 @@ footer .contact-box p {
   .content-container {
     padding: 30px 15px;
   }
+  /* h1 {
+    font-size: 55px;
+    line-height: 65px;
+  } */
+  .hero h1,
   h1 {
     font-size: 55px;
     line-height: 65px;
