@@ -63,7 +63,7 @@ nav li {
   list-style: none;
   display: inline;
   line-height: 25px;
-  margin: 20px 10px;
+  margin: 20px 0px;
   font-size: 16px;
 }
 nav a {
@@ -204,7 +204,7 @@ nav a:hover,
   margin: 20px 0 40px;
 }
 ul {
-  margin: 0 1.5rem !important;
+  margin: 0 1rem !important;
   /* margin: 0 auto; */
 }
 .list-inline-item {
@@ -223,10 +223,10 @@ ul {
 .softskills {
   max-width: 250px;
 }
-.col-lg-3 {
+/* .col-lg-3 {
   display: flex;
   justify-items: center;
-}
+} */
 .box {
   background-color: white;
   padding: 20px 0 40px;
@@ -378,7 +378,7 @@ footer .contact-box p {
   }
 
   nav li {
-    margin: 10px 14px;
+    margin: 10px 0;
   }
 
   nav a {
