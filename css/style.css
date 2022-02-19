@@ -155,10 +155,8 @@ nav a:hover,
 }
 .content-container {
   padding: 60px 20px;
-  /* justify-items: center !important; */
 }
 .container-designlanguage {
-  /* padding: 30px 120px; */
   padding: 30px;
 }
 .content-container-about {
@@ -205,7 +203,6 @@ nav a:hover,
 }
 ul {
   margin: 0 1rem !important;
-  /* margin: 0 auto; */
 }
 .list-inline-item {
   padding: 0;
@@ -223,10 +220,6 @@ ul {
 .softskills {
   max-width: 250px;
 }
-/* .col-lg-3 {
-  display: flex;
-  justify-items: center;
-} */
 .box {
   background-color: white;
   padding: 20px 0 40px;
@@ -321,9 +314,6 @@ footer .contact-box p {
   .content-container-abouthero {
     padding: 20px 20px 35px !important;
   }
-  /* .aboutimg {
-    padding: 0 20px;
-  } */
   .smallcontainer {
     padding: 0 35px 40px !important;
   }
